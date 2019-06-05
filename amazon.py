@@ -155,7 +155,7 @@ class amazon:
 
     def get_amazon_product_meta(self,url):
         # the input URL is always of amazon
-        amazon = api.AmazonAPI(AMAZON_ACCESS_KEY, AMAZON_SECRET_KEY, AMAZON_ASSOC_TAG, region="IN")
+        amazon = api.AmazonAPI(AMAZON_ACCESS_KEY, AMAZON_SECRET_KEY, AMAZON_ASSOC_TAG, region="US")
   
 
         product_dict = dict()
